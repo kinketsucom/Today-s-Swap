@@ -1,0 +1,6 @@
+framework module Pods_Todays_SwapTests {
+  umbrella header "Pods-Todays_SwapTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Fuzi (1.0.1)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Fuzi (~> 1.0.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Fuzi: 851403654bac55675aaeed815d0c8a1d3e3d3e8b
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 203520fbe25ba6759289f78f3cac6a875279beb2
+
+COCOAPODS: 1.2.1
