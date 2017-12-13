@@ -70,10 +70,10 @@ class ViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSou
 //                            print(String(counter)+":"+value.rawXML)
 //                            counter += 1
 //                        }
-                        print("トルコリラ/円")
-                        print(td[18].description)//付与日数
-                        print(td[23].stringValue)//買いスワップ
-                        print(td[28].document)//売りスワップ
+//                        print("トルコリラ/円")
+//                        print(td[18].description)//付与日数
+//                        print(td[23].stringValue)//買いスワップ
+//                        print(td[28].document)//売りスワップ
                         self.AddDateLabel.text = td[18].stringValue
                         self.BuySwapLabel.text = td[23].stringValue
                         self.SellSwapLabel.text = td[28].stringValue

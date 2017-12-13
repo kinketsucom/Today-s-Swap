@@ -14,6 +14,9 @@
 		844192F41FDE58A50031848E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844192F21FDE58A50031848E /* LaunchScreen.storyboard */; };
 		844192FF1FDE58A50031848E /* Todays_SwapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844192FE1FDE58A50031848E /* Todays_SwapTests.swift */; };
 		8441930A1FDE58A50031848E /* Todays_SwapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844193091FDE58A50031848E /* Todays_SwapUITests.swift */; };
+		844193181FDFAB4C0031848E /* SwapCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844193171FDFAB4C0031848E /* SwapCalendarViewController.swift */; };
+		8441931A1FDFAC480031848E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844193191FDFAC480031848E /* PageViewController.swift */; };
+		8441931C1FDFC9A90031848E /* CalendarCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8441931B1FDFC9A90031848E /* CalendarCellCollectionViewCell.swift */; };
 		BC0D01939850D3B364837C94 /* Pods_Todays_SwapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDD647C48910F5AC88DD4AE /* Pods_Todays_SwapUITests.framework */; };
 		C50772A4896067B93FA00005 /* Pods_Todays_Swap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931C4A9E0DE5A633C7CBCE24 /* Pods_Todays_Swap.framework */; };
 		E9F11BF85A8D8968663AEFED /* Pods_Todays_SwapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2785DA1B7C7E7E480E096363 /* Pods_Todays_SwapTests.framework */; };
@@ -57,6 +60,9 @@
 		844193051FDE58A50031848E /* Todays_SwapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todays_SwapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844193091FDE58A50031848E /* Todays_SwapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todays_SwapUITests.swift; sourceTree = "<group>"; };
 		8441930B1FDE58A50031848E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844193171FDFAB4C0031848E /* SwapCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapCalendarViewController.swift; sourceTree = "<group>"; };
+		844193191FDFAC480031848E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		8441931B1FDFC9A90031848E /* CalendarCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		931C4A9E0DE5A633C7CBCE24 /* Pods_Todays_Swap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todays_Swap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE514E30D51C683982E6500E /* Pods-Todays_SwapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todays_SwapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Todays_SwapTests/Pods-Todays_SwapTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,7 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				844192E91FDE58A50031848E /* AppDelegate.swift */,
+				844193191FDFAC480031848E /* PageViewController.swift */,
 				844192EB1FDE58A50031848E /* ViewController.swift */,
+				844193171FDFAB4C0031848E /* SwapCalendarViewController.swift */,
+				8441931B1FDFC9A90031848E /* CalendarCellCollectionViewCell.swift */,
 				844192ED1FDE58A50031848E /* Main.storyboard */,
 				844192F01FDE58A50031848E /* Assets.xcassets */,
 				844192F21FDE58A50031848E /* LaunchScreen.storyboard */,
@@ -447,7 +456,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				844192EC1FDE58A50031848E /* ViewController.swift in Sources */,
+				8441931C1FDFC9A90031848E /* CalendarCellCollectionViewCell.swift in Sources */,
+				844193181FDFAB4C0031848E /* SwapCalendarViewController.swift in Sources */,
 				844192EA1FDE58A50031848E /* AppDelegate.swift in Sources */,
+				8441931A1FDFAC480031848E /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
